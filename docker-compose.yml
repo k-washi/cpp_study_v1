@@ -1,12 +1,12 @@
 version: '3'
 
 services:
-  cpp-env:
+  cpp-study_v1_env:
     build: 
       context: .
       dockerfile: Dockerfile
-    container_name: cpp-env
-    image: cpp-env-image
+    container_name: cpp-study_v1_env
+    image: cpp-study_v1_env-image
     shm_size: '24gb'
     tty: true
     volumes: 
